@@ -1,0 +1,12 @@
+server:
+  port: 9191
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:vaxa
+    password: Test123
+    username: ct
+  h2:
+    console:
+      enabled: true
+      path: /h2
